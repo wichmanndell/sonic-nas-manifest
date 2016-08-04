@@ -1,0 +1,14 @@
+Section: net
+Priority: optional
+Homepage: github.com/azure/sonic-nas-manifest
+Standards-Version: 3.9.2
+
+Package: sonic-nas-host-adapter-s6000
+Version: 1.0
+Maintainer: Dell Networking <support@dell.com>
+Depends: sonic-platform-s6000-config, libsonic-nas-platform-s6000-1, libsonic-sai-bcm-esw1, libsonic-sdi-device-drivers1, libsonic-sdi-framework1, libsonic-sdi-sys1, sonic-object-library, libsonic-pas1,sonic-nas-daemon  
+
+Provides: sonic-nos-base
+
+Description: SONiC NAS confugured for Dell S6000
+  This series of packages contain the functionality required to install drivers and application software providing a SONiC Switch which can be used with routing protocols like Quagga, Bird, Snap Route.  
