@@ -6,7 +6,7 @@ Standards-Version: 3.9.2
 Package: sonic-nas-host-adapter-s6000
 Version: 1.0
 Maintainer: Dell Networking <support@dell.com>
-Depends: sonic-platform-s6000-config, sonic-bcm-lkm, libsonic-nas-platform-s6000-1, libsonic-sai-bcm-esw1, libsonic-sdi-device-drivers1, libsonic-sdi-framework1, libsonic-sdi-sys1, sonic-object-library, libsonic-pas1,sonic-nas-daemon,sonic-pas,sonic-nas-acl,sonic-nas-qos,sonic-nas-l2,sonic-nas-l3,sonic-nas-linux,sonic-nas-common,sonic-logging
+Depends: sonic-platform-s6000-config, sonic-bcm-lkm, libsonic-nas-platform-s6000-1, libsonic-sai-bcm-esw1, libsonic-sdi-device-drivers1, libsonic-sdi-framework1, libsonic-sdi-sys1, sonic-object-library, sonic-nas-acl,sonic-nas-qos,sonic-nas-l2,sonic-nas-l3,sonic-nas-linux,sonic-nas-common,sonic-logging,libsonic-pas1, sonic-pas,sonic-nas-daemon
 
 Provides: sonic-nos-base
 
